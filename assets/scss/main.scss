@@ -1,0 +1,31 @@
+main {
+    section {
+        article {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .primario {
+                margin: 70px;
+                width: 350px;
+                border: 5px solid #FFF;
+                border-radius: 80px;
+                background: rgba(0,0,0, 0.2);
+                box-shadow: 0 7px 5px rgba(0,0,0, 0.2);
+
+                
+                h1,p {
+                    margin: 30px;
+                    text-align: center;
+                    color: #FFF;
+                } 
+
+                p {
+                    
+                    text-align: center;                    
+                    //color: #FFF;
+                } 
+            }
+        }
+    }
+}
